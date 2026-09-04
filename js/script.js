@@ -102,23 +102,23 @@ function loadStudentUnit(unitNumber) {
 
     let pageNumbers = [];
     switch(unitNumber) {
-        case "1": pageNumbers = [6,7,8,9,10,11]; break;
-        case "2": pageNumbers = [12,13,14,15,16,17]; break;
-        case "3": pageNumbers = [18,19,20,21,22,23,24,25]; break;
-        case "4": pageNumbers = [26,27,28,29,30,31]; break;
-        case "5": pageNumbers = [32,33,34,35,36,37]; break;
-        case "6": pageNumbers = [38,39,40,41,42,43,44,45]; break;
-        case "7": pageNumbers = [46,47,48,49,50,51]; break;
-        case "8": pageNumbers = [52,53,54,55,56,57]; break;
-        case "9": pageNumbers = [58,59,60,61,62,63,64,65]; break;
-        case "10": pageNumbers = [66,67,68,69,70,71]; break;
-        case "11": pageNumbers = [72,73,74,75,76,77]; break;
-        case "12": pageNumbers = [78,79,80,81,82,83,84,85]; break;
+        case "1": pageNumbers = [4,5,6,7,8,9]; break;
+        case "2": pageNumbers = [10,11,12,13,14,15,16,17]; break;
+        case "3": pageNumbers = [18,19,20,21,22,23]; break;
+        case "4": pageNumbers = [24,25,26,27,28,29,30,31]; break;
+        case "5": pageNumbers = [34,35,36,37,38,39]; break;
+        case "6": pageNumbers = [40,41,42,43,44,45,46,47]; break;
+        case "7": pageNumbers = [48,49,50,51,52,53]; break;
+        case "8": pageNumbers = [54,55,56,57,58,59,60,61,62,63]; break;
+        case "9": pageNumbers = [64,65,66,67,68,69]; break;
+        case "10": pageNumbers = [70,71,72,73,74,75,76,77]; break;
+        case "11": pageNumbers = [78,79,80,81,82,83]; break;
+        case "12": pageNumbers = [84,85,86,87,88,89,90,91]; break;
         default: pageNumbers = []; break;
     }
 
     pageNumbers.forEach(num => {
-        currentImages.push(basePath + "page" + num + ".JPG");
+        currentImages.push(basePath + "page" + num + ".jpg");
     });
 
     loadImage(currentImages[currentIndex]);
@@ -138,23 +138,23 @@ function loadActivityUnit(unitNumber) {
 
     let pageNumbers = [];
     switch(unitNumber) {
-        case "1": pageNumbers = [106,107]; break;
-        case "2": pageNumbers = [108,109]; break;
-        case "3": pageNumbers = [110,111]; break;
-        case "4": pageNumbers = [112,113]; break;
-        case "5": pageNumbers = [114,115]; break;
-        case "6": pageNumbers = [116,117]; break;
-        case "7": pageNumbers = [118,119]; break;
-        case "8": pageNumbers = [120,121]; break;
-        case "9": pageNumbers = [122,123]; break;
-        case "10": pageNumbers = [124,125]; break;
-        case "11": pageNumbers = [126,127]; break;
-        case "12": pageNumbers = [128,129]; break;
+        case "1": pageNumbers = [4,5,6,7,8,9]; break;
+        case "2": pageNumbers = [10,11,12,13,14,15,16,17]; break;
+        case "3": pageNumbers = [18,19,20,21,22,23]; break;
+        case "4": pageNumbers = [24,25,26,27,28,29,30,31,32,33]; break;
+        case "5": pageNumbers = [34,35,36,37,38,39]; break;
+        case "6": pageNumbers = [40,41,42,43,44,45,46,47]; break;
+        case "7": pageNumbers = [48,49,50,51,52,53]; break;
+        case "8": pageNumbers = [54,55,56,57,58,59,60,61,62,63]; break;
+        case "9": pageNumbers = [64,65,66,67,68,69]; break;
+        case "10": pageNumbers = [70,71,72,73,74,75,76,77]; break;
+        case "11": pageNumbers = [78,79,80,81,82,83]; break;
+        case "12": pageNumbers = [84,85,86,87,88,89,90,91,92,93,94]; break;
         default: pageNumbers = []; break;
     }
 
     pageNumbers.forEach(num => {
-        currentImages.push(basePath + "page" + num + ".JPG");
+        currentImages.push(basePath + "page" + num + ".jpg");
     });
 
     if (currentImages.length > 1) {
@@ -262,6 +262,7 @@ slideContainer.addEventListener("wheel", function(e) {
 }
 }, { passive: false });
 
+
 // ==========================
 // HOME BUTTON
 // ==========================
@@ -340,8 +341,8 @@ audioBtn.addEventListener("click", function(e) {
         3: {20:["page20_Track_3.1","page20_Track_3.2"],21:["page21_Track_3.3"]},
         4: {26:["page26_Track_4.1"],28:["page28_Track_4.2"],29:["page29_Track_4.3","page29_Track_4.4"],30:["page30_Track_4.5"]},
         5: {33:["page33_Track_5.1"],34:["page34_Track_5.2","page34_Track_5.3"],35:["page35_Track_5.4"]},
-        6: {39:["page39_Track_6.1"],40:["page40_Track_6.2"],41:["page41_Track_6.3"]},
-        7: {47:["page47_Track_7.1"],48:["page48_Track_7.2","page48_Track_7.3"],49:["page49_Track_7.4"]},
+        6: {40:["page40_Track_65","page40_Track_66"],41:["page41_Track_67","page41_Track_68"],42:["page42_Track_69","page42_Track_70"],43:["page43_Track_71","page43_Track_72"],44:["page44_Track_73"],45:["page45_Track_74","page45_Track_75"],46:["page46_Track_76"],47:["page47_Track_77"] },
+        7: {48:["page48_Track_78","page48_Track_79"],49:["page49_Track_80"],50:["page50_Track_82","page50_Track_83"],51:["page51_Track_84","page51_Track_85"],52:["page52_Track_86"],53:["page53_Track_87"]},
         8: {53:["page53_Track_8.1"],54:["page54_Track_8.2","page54_Track_8.3"],55:["page54_Track_8.3","page55_Track_8.4"],56:["page56_Track_8.5"]},
         9: {59:["page59_Track_9.1","page59_Track_9.2"],60:["page60_Track_9.3",],61:["page61_Track_9.4"],63:["page63_Track_9.5"]},
         10: {66:["page66_Track_10.1"],68:["page68_Track_10.2"],69:["page69_Track_10.3"]},
@@ -351,7 +352,7 @@ audioBtn.addEventListener("click", function(e) {
 
     // Define audio tracks for all units (Activity Book)
     const activityBookAudioTracks = {
-        1: {4:["page4_Track_02"],6:["page6_Track_03"],7:["page7_Track_04"]},
+        1: {4:["KidsBox_Level1_Test_Units_1-4_Listening_1_Audio_Track_26","KidsBox_Level1_Test_Units_1-4_Listening_2_Audio_Track_27","KidsBox_Level1_Test_Units_1-4_Listening_3_Audio_Track_28"],6:["page6_Track_03"],7:["page7_Track_04"]},
         2: {10:["page10_Track_05"],12:["page12_Track_06"],16:["page16_Track_07"]},
         3: {18:["page18_Track_08"],19:["page19_Track_09"],20:["page20_Track_10"],21:["page21_Track_11"],22:["page22_Track_12"]},
         4: {24:["page24_Track_13"],25:["page25_Track_14"],26:["page26_Track_15"],28:["page28_Track_16"]},
@@ -444,8 +445,11 @@ const unitVideos = {
     },
 
     6: {
-        44: ["br2_004_v2_1"],
-        45: ["br2_004_v2_2","br2_004_v2_3"]
+        42: ["KidsBox_Level1_Unit6_Language_video"],
+        43: ["KidsBox_Level1_Unit6_Song_video","KidsBox_Level1_Unit6_Karaoke_video"],
+        44: ["KidsBox_Level1_Unit6_Montys_sounds_and_spelling_video"],
+        45: ["KidsBox_Level1_Unit6_Story_video"],
+        46: ["KidsBox_Level1_Unit6_CLIL_video"]
     },
 
     9: {
