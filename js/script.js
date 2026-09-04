@@ -330,18 +330,16 @@ audioBtn.addEventListener("click", function(e) {
     // Define audio tracks for all units (Student Book)
     const studentBookAudioTracks = {
         0: {11:["page11_Track_2"],12:["page12_Track_3"],13:["page13_Track_4","page13_Track_5","page13_Track_6"],14:["page14_Track_7"],15:["page15_Track_8","page15_Track_9"],17:["page17_Track_10","page17_Track_11"]},
-        1: {11:["page11_Track_1.1"],8:["page8_Track_1.2"],9:["page9_Track_1.3","page9_Track_1.4"]},
-        2: {13:["page13_Track_2.1"],14:["page14_Track_2.2"],15:["page15_Track_2.3","page15_Track_2.4"]},
-        3: {20:["page20_Track_3.1","page20_Track_3.2"],21:["page21_Track_3.3"]},
-        4: {26:["page26_Track_4.1"],28:["page28_Track_4.2"],29:["page29_Track_4.3","page29_Track_4.4"],30:["page30_Track_4.5"]},
-        5: {33:["page33_Track_5.1"],34:["page34_Track_5.2","page34_Track_5.3"],35:["page35_Track_5.4"]},
-        6: {40:["page40_Track_65","page40_Track_66"],41:["page41_Track_67","page41_Track_68"],42:["page42_Track_69","page42_Track_70"],43:["page43_Track_71","page43_Track_72"],44:["page44_Track_73"],45:["page45_Track_74","page45_Track_75"],46:["page46_Track_76"],47:["page47_Track_77"] },
-        7: {48:["page48_Track_78","page48_Track_79"],49:["page49_Track_80"],50:["page50_Track_82","page50_Track_83"],51:["page51_Track_84","page51_Track_85"],52:["page52_Track_86"],53:["page53_Track_87"]},
-        8: {53:["page53_Track_8.1"],54:["page54_Track_8.2","page54_Track_8.3"],55:["page54_Track_8.3","page55_Track_8.4"],56:["page56_Track_8.5"]},
-        9: {59:["page59_Track_9.1","page59_Track_9.2"],60:["page60_Track_9.3",],61:["page61_Track_9.4"],63:["page63_Track_9.5"]},
-        10: {66:["page66_Track_10.1"],68:["page68_Track_10.2"],69:["page69_Track_10.3"]},
-        11: {72:["page72_Track_11.1"],74:["page74_Track_11.2"],75:["page75_Track_11.3"],76:["page76_Track_11.4"]},
-        12: {80:["page80_Track_12.1"],81:["page81_Track_12.2"] }
+        1: {20:["page20_Track_12","page20_Track_13","page20_Track_14"],21:["page21_Track_15"],22:["page22_Track_16","page22_Track_17"],23:["page23_Track_18","page23_Track_19","page23_Track_20","page23_Track_21"],24:["page24_Track_22"],25:["page25_Track_23","page25_Track_24","page25_Track_25"],26:["page26_Track_26"],27:["page27_Track_27"],28:["page28_Track_28","page28_Track_29","page28_Track_30","page28_Track_31"],29:["page29_Track_32"],31:["page31_Track_33","page31_Track_34","page31_Track_35","page31_Track_36"],35:["page35_Track_37"]},
+        2: {39:["page39_Track_38","page39_Track_39","page39_Track_40","page39_Track_41"],40:["page40_Track_42","page40_Track_43"],42:["page42_Track_44","page42_Track_45","page42_Track_46"],43:["page43_Track_47"],44:["page44_Track_48"],45:["page45_Track_48","page45_Track_49","page45_Track_50"],47:["page47_Track_51","page47_Track_52","page47_Track_53","page47_Track_54","page47_Track_55"],48:["page48_Track_56","page48_Track_57","page48_Track_58"],49:["page49_Track_59"]},
+        3: {56:["page56_Track_60"],57:["page57_Track_60","page57_Track_61","page57_Track_62","page57_Track_63"],59:["page59_Track_64","page59_Track_65","page59_Track_66","page59_Track_67"],61:["page61_Track_68","page61_Track_69"],62:["page62_Track_70"],63:["page63_Track_71"],65:["page65_Track_72","page65_Track_73","page65_Track_74","page65_Track_75"],67:["page67_Track_76"],71:["page71_Track_77"]},
+        4: {26:[]},
+        5: {33:[]},
+        6: {40:[] },
+        7: {48:[]},
+        8: {53:[]},
+        
+        
     };
 
     // Define audio tracks for all units (Activity Book)
@@ -354,10 +352,7 @@ audioBtn.addEventListener("click", function(e) {
         6: {40:["page40_Track_21"],41:["page41_Track_22"],42:["page42_Track_23"],46:["page46_Track_24"]},
         7: {48:["page48_Track_25"],50:["page50_Track_26"],52:["page52_Track_27"]},
         8: {54:["page54_Track_28"],55:["page55_Track_29"],56:["page56_Track_30","page56_Track_31"],57:["page57_Track_32"],60:["page60_Track_33"],62:["page62_Track_34"]},
-        9: {64:["page64_Track_35"],66:["page66_Track_36"]},
-        10: {70:["page70_Track_37"],72:["page72_Track_38"],73:["page73_Track_39"]},
-        11: {78:["page78_Track_40"],80:["page80_Track_41"]},
-        12: {84:["page84_Track_42"],86:["page86_Track_43"],87:["page87_Track_44"] }
+        
     };
 
     // Pick the correct track list
