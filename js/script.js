@@ -102,18 +102,15 @@ function loadStudentUnit(unitNumber) {
 
     let pageNumbers = [];
     switch(unitNumber) {
-        case "1": pageNumbers = [4,5,6,7,8,9]; break;
-        case "2": pageNumbers = [10,11,12,13,14,15,16,17]; break;
-        case "3": pageNumbers = [18,19,20,21,22,23]; break;
-        case "4": pageNumbers = [24,25,26,27,28,29,30,31]; break;
-        case "5": pageNumbers = [34,35,36,37,38,39]; break;
-        case "6": pageNumbers = [40,41,42,43,44,45,46,47]; break;
-        case "7": pageNumbers = [48,49,50,51,52,53]; break;
-        case "8": pageNumbers = [54,55,56,57,58,59,60,61,62,63]; break;
-        case "9": pageNumbers = [64,65,66,67,68,69]; break;
-        case "10": pageNumbers = [70,71,72,73,74,75,76,77]; break;
-        case "11": pageNumbers = [78,79,80,81,82,83]; break;
-        case "12": pageNumbers = [84,85,86,87,88,89,90,91]; break;
+        case "0": pageNumbers = [10,11,12,13,14,15,16,17]; break;    
+        case "1": pageNumbers = [18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]; break;
+        case "2": pageNumbers = [36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]; break;
+        case "3": pageNumbers = [54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]; break;
+        case "4": pageNumbers = [72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89]; break;
+        case "5": pageNumbers = [90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107]; break;
+        case "6": pageNumbers = [108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125]; break;
+        case "7": pageNumbers = [126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143]; break;
+        case "8": pageNumbers = [144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161]; break;
         default: pageNumbers = []; break;
     }
 
@@ -138,18 +135,14 @@ function loadActivityUnit(unitNumber) {
 
     let pageNumbers = [];
     switch(unitNumber) {
-        case "1": pageNumbers = [4,5,6,7,8,9]; break;
-        case "2": pageNumbers = [10,11,12,13,14,15,16,17]; break;
-        case "3": pageNumbers = [18,19,20,21,22,23]; break;
-        case "4": pageNumbers = [24,25,26,27,28,29,30,31,32,33]; break;
-        case "5": pageNumbers = [34,35,36,37,38,39]; break;
-        case "6": pageNumbers = [40,41,42,43,44,45,46,47]; break;
-        case "7": pageNumbers = [48,49,50,51,52,53]; break;
-        case "8": pageNumbers = [54,55,56,57,58,59,60,61,62,63]; break;
-        case "9": pageNumbers = [64,65,66,67,68,69]; break;
-        case "10": pageNumbers = [70,71,72,73,74,75,76,77]; break;
-        case "11": pageNumbers = [78,79,80,81,82,83]; break;
-        case "12": pageNumbers = [84,85,86,87,88,89,90,91,92,93,94]; break;
+        case "1": pageNumbers = [4,5,6,7,8,9,10,11,12,13,14,15,16,17]; break;
+        case "2": pageNumbers = [18,19,20,21,22,23,24,25,26,27,28,29,30,31]; break;
+        case "3": pageNumbers = [32,33,34,35,36,37,38,39,40,41,42,43,44,45]; break;
+        case "4": pageNumbers = [46,47,48,49,50,51,52,53,54,55,56,57,58,59]; break;
+        case "5": pageNumbers = [60,61,62,63,64,65,66,67,68,69,70,71,72,73]; break;
+        case "6": pageNumbers = [74,75,76,77,78,79,80,81,82,83,84,85,86,87]; break;
+        case "7": pageNumbers = [88,89,90,91,92,93,94,95,96,97,98,99,100,101]; break;
+        case "8": pageNumbers = [102,103,104,105,106,107,108,109,110,111,112,113,114,115]; break;
         default: pageNumbers = []; break;
     }
 
